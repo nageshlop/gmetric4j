@@ -1,4 +1,11 @@
 language: java
+dist: xenial
+
 jdk:
   - oraclejdk7
   - openjdk6
+jobs:
+  include:
+  - os: linux
+    arch: ppc64le
+    jdk: openjdk8
