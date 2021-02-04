@@ -2,8 +2,8 @@ language: java
 dist: xenial
 
 jdk:
-  - oraclejdk7
-  - openjdk6
+  - oraclejdk8
+  - openjdk8
 jobs:
   include:
   - os: linux
